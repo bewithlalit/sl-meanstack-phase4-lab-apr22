@@ -1,5 +1,5 @@
 # pull the image
-FROM node:latest
+FROM node:16-alpine
 # create the directory or folder in OS
 RUN mkdir /usr/src/app
 # point or refer to working directory
