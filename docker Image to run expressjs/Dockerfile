@@ -1,7 +1,7 @@
 # pull the image
 FROM node:16-alpine
 # create the directory or folder in OS
-RUN mkdir /usr/src/app
+RUN mkdir -p /usr/src/app
 # point or refer to working directory
 WORKDIR /usr/src/app
 # copy package.json file in working directory
